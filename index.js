@@ -82,10 +82,6 @@ function newCard(){
     }
 }
 
-
-
-
-
 function getRandomCard(){
     let randomnumber=Math.floor(Math.random()*13)+1
     if(randomnumber>10){
@@ -97,5 +93,9 @@ function getRandomCard(){
     else{
         return randomnumber
     }
-
 }
+
+
+
+
+
